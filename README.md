@@ -62,6 +62,15 @@ Developed at the **Central Research & Training Laboratory (CRTEL)**, **National 
 
 ---
 
+## 🏛️ System Architecture
+
+<div align="center">
+  <img src="docs/visitor_classification_architecture.png" alt="Visitor Classification Architecture" width="750px" />
+  <p><i>Figure: End-to-end multimodal classification pipeline combining Face-to-Age, Height-to-Age, and Manual Fallback into the Visitor Classification Model for personalized display output.</i></p>
+</div>
+
+---
+
 ## 🌟 Key Features
 
 1. **AI-Based Age Estimation & Content Personalization**:
