@@ -91,7 +91,7 @@ Developed at the **Central Research & Training Laboratory (CRTEL)**, **National 
 ## Repository Structure
 
 ```text
-CRTEL-Lab-Project-Demo/
+Personalized-Content-Delivery-Systems/
 ├── src/                                  # Production & modular source code
 │   ├── __init__.py
 │   ├── age_estimation_content_delivery.py# AI age estimation & content personalization
@@ -124,8 +124,8 @@ CRTEL-Lab-Project-Demo/
 
 ### 2. Installation
 ```bash
-git clone https://github.com/arafat678/CRTEL-Lab-Project-Demo.git
-cd CRTEL-Lab-Project-Demo
+git clone https://github.com/arafat678/Personalized-Content-Delivery-Systems.git
+cd Personalized-Content-Delivery-Systems
 pip install -r requirements.txt
 ```
 
