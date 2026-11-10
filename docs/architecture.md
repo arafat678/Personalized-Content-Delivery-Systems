@@ -41,3 +41,4 @@ The **CRTEL Lab Interactive Spatial Display System** is engineered to enable tou
 - **`src/face_detection.py`**: Rapid visitor count and engagement estimation.
 - **`src/interactive_media_player.py`**: Event-driven multimedia orchestrator.
 - **`src/benchmark_compute.py`**: Edge inference latency analyzer.
+

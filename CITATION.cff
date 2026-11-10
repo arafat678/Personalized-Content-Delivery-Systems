@@ -1,20 +1,40 @@
 cff-version: 1.2.0
-message: "If you use this software in your research or project, please cite it as below."
+message: "If you use this software or cite the research, please cite the published book chapter below."
 title: "Interactive Display System for Spatial Content Exploration: Real-Time Human Detection & ROI Tracking"
 authors:
   - family-names: "Mondal"
     given-names: "Arafat Ali"
     orcid: "https://orcid.org/0009-0006-2487-8565"
 affiliation: "Central Research & Training Laboratory (CRTEL), National Council of Science Museums (NCSM)"
-version: 1.0.0
-date-released: 2024-05-04
+version: 1.1.0
+date-released: 2026-07-12
 license: MIT
 repository-code: "https://github.com/arafat678/CRTEL-Lab-Project-Demo"
 keywords:
   - "Computer Vision"
   - "Human Detection"
+  - "Age Estimation"
+  - "Personalized Content Delivery"
   - "MediaPipe Pose"
   - "Region of Interest (ROI)"
   - "Interactive Display"
-  - "Multi-Scale Zoom"
   - "NCSM CRTEL Lab"
+preferred-citation:
+  type: book
+  title: "Personalized Content Delivery Systems: An AI Based Age Estimation Approach"
+  authors:
+    - family-names: "Mondal"
+      given-names: "Arafat Ali"
+      orcid: "https://orcid.org/0009-0006-2487-8565"
+    - family-names: "Chatterjee"
+      given-names: "Arnab"
+    - family-names: "Ghosh"
+      given-names: "Shatadal"
+    - family-names: "Bagchi"
+      given-names: "Manash"
+  year: 2026
+  month: 7
+  publisher:
+    name: "CRC Press (Taylor & Francis Group)"
+  collection-title: "Emerging Trends in Electrical and Computer Technologies"
+  isbn: "9781041117636"
