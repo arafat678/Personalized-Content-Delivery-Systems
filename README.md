@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Associated Research Publication
+## Associated Research Publication
 
 This codebase represents the engineering realization and experimental framework behind the published book chapter:
 
@@ -25,7 +25,7 @@ This codebase represents the engineering realization and experimental framework 
 
 ---
 
-## 📖 Overview
+## Overview
 Developed at the **Central Research & Training Laboratory (CRTEL)**, **National Council of Science Museums (NCSM)**, this system bridges edge computer vision with smart museum exhibition hardware. It provides touchless, presence-aware spatial exploration through:
 * **Real-time human pose estimation and bounding tracking**
 * **Interactive Region of Interest (ROI) selection**
@@ -62,7 +62,7 @@ Developed at the **Central Research & Training Laboratory (CRTEL)**, **National 
 
 ---
 
-## 🏛️ System Architecture
+## System Architecture
 
 <div align="center">
   <img src="docs/visitor_classification_architecture.png" alt="Visitor Classification Architecture" width="750px" />
@@ -71,7 +71,7 @@ Developed at the **Central Research & Training Laboratory (CRTEL)**, **National 
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 1. **AI-Based Age Estimation & Content Personalization**:
    * Analyzes facial morphology and anthropometric ratios to classify visitors into audience demographics (`Child <13`, `Youth 13-25`, `Adult 26-55`, `Senior 55+`), dynamically streaming age-appropriate narrative styles and visual themes.
@@ -88,7 +88,7 @@ Developed at the **Central Research & Training Laboratory (CRTEL)**, **National 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 CRTEL-Lab-Project-Demo/
@@ -116,7 +116,7 @@ CRTEL-Lab-Project-Demo/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 * Python 3.8, 3.9, 3.10, or 3.11
@@ -131,7 +131,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### 1. AI Age Estimation & Content Personalization (Published Chapter Method)
 Run the real-time demographic adaptation engine:
@@ -167,7 +167,7 @@ python src/interactive_media_player.py --video path/to/exhibit_video.mp4
 
 ---
 
-## 📊 Empirical Zoom Calibration (CRTEL Lab Data)
+## Empirical Zoom Calibration (CRTEL Lab Data)
 
 Extracted from experimental lab trials on museum display tile matrices (`experiments/calibration_table.txt`):
 
@@ -181,7 +181,7 @@ Extracted from experimental lab trials on museum display tile matrices (`experim
 
 ---
 
-## 📝 Citation
+## Citation
 
 ### Book Chapter Citation (IEEE Format)
 ```text
@@ -204,6 +204,6 @@ A. A. Mondal, A. Chatterjee, S. Ghosh, and M. Bagchi, "Personalized Content Deli
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the [MIT License](LICENSE).  
 Developed at Central Research & Training Laboratory (CRTEL), National Council of Science Museums (NCSM).
