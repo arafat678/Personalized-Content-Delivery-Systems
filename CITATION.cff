@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software in your research or project, please cite it as below."
+title: "Interactive Display System for Spatial Content Exploration: Real-Time Human Detection & ROI Tracking"
+authors:
+  - family-names: "Mondal"
+    given-names: "Arafat Ali"
+    orcid: "https://orcid.org/0009-0006-2487-8565"
+affiliation: "Central Research & Training Laboratory (CRTEL), National Council of Science Museums (NCSM)"
+version: 1.0.0
+date-released: 2024-05-04
+license: MIT
+repository-code: "https://github.com/arafat678/CRTEL-Lab-Project-Demo"
+keywords:
+  - "Computer Vision"
+  - "Human Detection"
+  - "MediaPipe Pose"
+  - "Region of Interest (ROI)"
+  - "Interactive Display"
+  - "Multi-Scale Zoom"
+  - "NCSM CRTEL Lab"

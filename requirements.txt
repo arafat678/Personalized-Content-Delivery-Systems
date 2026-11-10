@@ -1,0 +1,8 @@
+# Core Computer Vision & Media Frameworks
+opencv-python>=4.7.0.72
+mediapipe>=0.10.0
+numpy>=1.23.5
+
+# Optional / Multimedia Components
+python-vlc>=3.0.18121
+tensorflow>=2.12.0; platform_system != "Darwin"

@@ -1,0 +1,7 @@
+human- detection-----table
+--------------------------------
+2x=9tiless
+3x= 11tiles
+4x= 13tiles
+5x=11 tiles
+6x=
