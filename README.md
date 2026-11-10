@@ -62,11 +62,18 @@ Developed at the **Central Research & Training Laboratory (CRTEL)**, **National 
 
 ---
 
-## System Architecture
+## System & Hardware Architecture
 
+### 1. Hardware Interfacing Topology
+<div align="center">
+  <img src="docs/hardware_components_architecture.png" alt="Hardware Components Architecture" width="750px" />
+  <p><i>Figure 1: Hardware interconnection topology connecting the Intel NUC, 4K USB Camera, Arduino UNO with LiDAR sensor, and the Interactive Display with manual input.</i></p>
+</div>
+
+### 2. Multimodal Visitor Classification Pipeline
 <div align="center">
   <img src="docs/visitor_classification_architecture.png" alt="Visitor Classification Architecture" width="750px" />
-  <p><i>Figure: End-to-end multimodal classification pipeline combining Face-to-Age, Height-to-Age, and Manual Fallback into the Visitor Classification Model for personalized display output.</i></p>
+  <p><i>Figure 2: End-to-end multimodal classification pipeline combining Face-to-Age, Height-to-Age, LiDAR telemetry, and Manual Fallback into the Visitor Classification Model.</i></p>
 </div>
 
 ---
@@ -95,11 +102,14 @@ Personalized-Content-Delivery-Systems/
 ├── src/                                  # Production & modular source code
 │   ├── __init__.py
 │   ├── age_estimation_content_delivery.py# AI age estimation & content personalization
+│   ├── hardware_interface.py             # Intel NUC <-> Arduino UNO LiDAR serial interface
 │   ├── human_detection_roi.py            # Main interactive ROI selection & human tracking
 │   ├── dynamic_zoom_controller.py        # Multi-scale zoom & re-centering engine
 │   ├── face_detection.py                 # Multi-person face detection module
 │   ├── interactive_media_player.py       # Presence-triggered multimedia playback
 │   └── benchmark_compute.py              # CPU vs GPU throughput benchmark
+├── hardware/                             # Embedded micro-controller firmware
+│   └── arduino_lidar_controller.ino      # Arduino UNO C++ firmware for LiDAR distance telemetry
 ├── experiments/                          # Research experiments & calibration scripts
 │   ├── posotion_fixed/                   # 12x zoom, 3x-8x ROI calibration, and position logs
 │   ├── roi_variants/                     # Progressive ROI implementation prototypes
